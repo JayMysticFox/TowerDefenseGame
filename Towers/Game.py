@@ -19,7 +19,7 @@ class Game:
                 clock.tick(60)
                 for event in pygame.event.get():
                     if event.type == pygame.QUIT:
-                        run = True
+                        run = False
 
                     self.draw()
 
